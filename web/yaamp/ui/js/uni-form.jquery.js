@@ -33,6 +33,6 @@ jQuery.fn.uniform = function(settings) {
 };
 
 // Auto set on page load...
-//$(function() {
-//  jQuery('form.uniForm').uniform();
-//});
+$(function() {
+ jQuery('form.uniForm').uniform();
+});
