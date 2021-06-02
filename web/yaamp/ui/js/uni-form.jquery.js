@@ -9,8 +9,7 @@ jQuery.fn.uniform = function(settings) {
   
   return this.each(function() {
     var form = jQuery(this);
-    alert('uni-form.js');
-    
+
     // Focus specific control holder
     var focusControlHolder = function(element) {
         var parent= $(element).parents().filter('.'+settings.holder_class);
